@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./images/Screenshot%20-%20faq-accordion-card-mobile-desktop%20(1).png)
-![Mobile](./images/Screenshot%20-%20faq-accordion-card-mobile-desktop%20(2).png)
+![Desktop](./public/images/Screenshot-faq-accordion-card-desktop.png)
+![Mobile](./public/images/Screenshot-faq-accordion-card-mobile.png)
 
 ### Links
 
