@@ -54,7 +54,7 @@ export function FAQ (){
                         <p className="question">{faq.question}</p>
                         <img
                         className={arrowClassName}
-                        src="/images/icon-arrow-down.svg"
+                        src="./images/icon-arrow-down.svg"
                         alt="icon arrow down"
                         />
                     </div>
