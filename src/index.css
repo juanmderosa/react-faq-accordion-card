@@ -1,0 +1,48 @@
+/* Normalize */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  font-weight: 400;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+
+
+
+:root{
+  /* Text 1 */
+--Verydarkdesaturatedblue: hsl(238, 29%, 16%);
+--Softred: hsl(14, 88%, 65%);
+/* Gradient */
+--Softviolet: hsl(273, 75%, 66%);
+--Softblue: hsl(240, 73%, 65%);
+/* Neutral Text */
+--Verydarkgrayishblue: hsl(237, 12%, 33%);
+--Darkgrayishblue: hsl(240, 6%, 50%);
+/* Dividers */
+--Lightgrayishblue: hsl(240, 5%, 91%);
+}
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background: linear-gradient(180deg, var(--Softviolet), var(--Softblue));
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+}
